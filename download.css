@@ -493,6 +493,7 @@
     text-align: center;
   }
   .download-secondary-text {
+    align-self: center;
     text-align: center;
   }
   .download-contact {
