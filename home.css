@@ -1231,12 +1231,20 @@
     top: 0px;
     left: 0px;
     width: 100%;
+    margin: 0;
     padding: var(--dl-space-space-unit);
-    justify-content: space-between;
+    max-width: var(--dl-size-size-maxcontent);
+    justify-content: center;
   }
   .home-logo {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 20%;
+    margin-right: 80%;
+  }
+  .home-burger-menu {
+    margin-right: 20%;
+  }
+  .home-icon {
+    margin-right: 20%;
   }
   .home-mobile-menu {
     height: 363px;
